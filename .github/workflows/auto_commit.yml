@@ -32,16 +32,16 @@ jobs:
           git config --global --add safe.directory /github/workspace
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="Updated"
+          arr[1]="Commit"
+          arr[2]="Fixed"
+          arr[3]="Push"
+          arr[4]="Penghijauan"
+          arr[5]="Reboisasi"
+          arr[6]="Pull"
+          arr[7]="Push commit"
+          arr[8]="Fix"
+          arr[9]="Ngepush"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
